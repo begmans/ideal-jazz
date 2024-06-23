@@ -2,17 +2,17 @@
   <div class="jazz-list-item">
     <img class="cover" 
     src="img/Live-at-the-pershing-lounge-but-not-for-me-180gr.jpg"
-    alt="{{ cover.alt }}"/>
+    alt="{{album.cover.alt}}"/>
     <p class="description">
-      {{ description }}
+      {{ album.description }}
     </p>
     <div class="info">
-      <p>{{ leader | uppercase }}</p>
-      <p>{{ title }}</p>
-      <p>{{ label }}</p>
-      <p>{{ distributor }}</p>
-      <p>Enr: {{ year }}</p>
+      <p>{{ album.leader | uppercase }}</p>
+      <p>{{ album.title }}</p>
+      <p>{{ album.label }}</p>
+      <p>{{ album.distributor }}</p>
+      <p>Enr: {{ album.year }}</p>
     </div>
-    <p class="type">{{ type | uppercase }}</p>
+    <p class="type">{{ album.type | uppercase }}</p>
   </div>
 </div>

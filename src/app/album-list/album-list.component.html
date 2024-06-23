@@ -2,7 +2,9 @@
 <ul>
 @for (album of albumList; track album.id) {
   <li>
-    {{ album.leader}} - {{album.title}} -  {{album.year}}
+    <a routerLink="/album-details/{{album.id}}" routerLinkActive="active" ariaCurrentWhenActive="page">
+      {{ album.leader}} - {{album.title}} -  {{album.year}}
+    </a>
   </li>
 }
 </ul>
