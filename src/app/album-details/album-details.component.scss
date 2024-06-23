@@ -12,6 +12,7 @@ p  {
     background-color: yellow;
     border: 1px solid black;
     gap: 0;
+    
   }
   
   .jazz-list-item .cover {
@@ -37,6 +38,7 @@ p  {
   .jazz-list-item .type {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+    font-size: 3em;
   }
 
 }

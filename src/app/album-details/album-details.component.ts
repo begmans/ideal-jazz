@@ -24,5 +24,8 @@ export class AlbumDetailsComponent {
     alt: 'Live at the Pershing cover'
   };
   type: string = 'hardbop'; 
+  label: string =  'Chess MCD 09108';
+  distributor: string = 'Universal';
+
   essential:boolean = false;
 }
